@@ -34,6 +34,7 @@ return array(
     'App\\Http\\Controllers\\ProPhuongnamController' => $baseDir . '/app/Http/Controllers/ProPhuongnamController.php',
     'App\\Http\\Controllers\\QuangcaoController' => $baseDir . '/app/Http/Controllers/QuangcaoController.php',
     'App\\Http\\Controllers\\TagController' => $baseDir . '/app/Http/Controllers/TagController.php',
+    'App\\Http\\Controllers\\TestController' => $baseDir . '/app/Http/Controllers/TestController.php',
     'App\\Http\\Controllers\\ThuvienanhController' => $baseDir . '/app/Http/Controllers/ThuvienanhController.php',
     'App\\Http\\Controllers\\TochucController' => $baseDir . '/app/Http/Controllers/TochucController.php',
     'App\\Http\\Controllers\\VanbanController' => $baseDir . '/app/Http/Controllers/VanbanController.php',

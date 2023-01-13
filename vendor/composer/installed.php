@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '482068c99f5473dd026a2d6092a3a7cb476ec81e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -512,9 +512,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '482068c99f5473dd026a2d6092a3a7cb476ec81e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -523,16 +523,16 @@
         'laravel/nova' => array(
             'pretty_version' => '3.22.0',
             'version' => '3.22.0.0',
-            'reference' => '4ba9fb7ea196e0039e61cbea574e570a6b15535c',
+            'reference' => 'e7c63514378fb4b0da2b78d1aaca17df6d873721',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/nova',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
-            'pretty_version' => 'v1.17.0',
-            'version' => '1.17.0.0',
-            'reference' => '7d69da7b2bdb8cbe8da6663eb2ae0e00c884bf80',
+            'pretty_version' => 'v1.18.0',
+            'version' => '1.18.0.0',
+            'reference' => '77feb38df1cf8700c19487957dfb12087cd696c7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/sail',
             'aliases' => array(),
@@ -548,9 +548,9 @@
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
-            'pretty_version' => 'v2.7.3',
-            'version' => '2.7.3.0',
-            'reference' => '5062061b4924af3392225dd482ca7b4d85d8b8ef',
+            'pretty_version' => 'v2.8.0',
+            'version' => '2.8.0.0',
+            'reference' => '74d0b287cc4ae65d15c368dd697aae71d62a73ad',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/tinker',
             'aliases' => array(),
@@ -604,7 +604,7 @@
         'mayviet/fileupload' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ce1f92b7208eec30ee48d7cc68696f8c3430153b',
+            'reference' => '4fad1496d842a7154076cd057bd2cda682ace93e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../mayviet/fileupload',
             'aliases' => array(),
@@ -613,7 +613,7 @@
         'mayviet/selecttree' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'fb10786b9916dcc4d2c5e42e6bce83eab22efc33',
+            'reference' => '2587a31d97eac48118bfd919c193fa34c8c57959',
             'type' => 'library',
             'install_path' => __DIR__ . '/../mayviet/selecttree',
             'aliases' => array(),
@@ -622,7 +622,7 @@
         'mayvietjsc/mvcms' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '1ce5b647c3541b787c171e69d94e778d3285bff0',
+            'reference' => '8d754337e382b6eb9fd7a5bfd9fc52804cb92558',
             'type' => 'library',
             'install_path' => __DIR__ . '/../mayvietjsc/mvcms',
             'aliases' => array(),
@@ -964,8 +964,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0.0 || 2.0.0 || 3.0.0',
-                1 => '1.0|2.0',
+                0 => '1.0|2.0',
+                1 => '1.0.0 || 2.0.0 || 3.0.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -1011,9 +1011,9 @@
             'dev_requirement' => false,
         ),
         'ramsey/uuid' => array(
-            'pretty_version' => '4.7.1',
-            'version' => '4.7.1.0',
-            'reference' => 'a1acf96007170234a8399586a6e2ab8feba109d1',
+            'pretty_version' => '4.7.3',
+            'version' => '4.7.3.0',
+            'reference' => '433b2014e3979047db08a17a205f410ba3869cf2',
             'type' => 'library',
             'install_path' => __DIR__ . '/../ramsey/uuid',
             'aliases' => array(),
@@ -1022,7 +1022,7 @@
         'rhumsaa/uuid' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.7.1',
+                0 => '4.7.3',
             ),
         ),
         'sebastian/cli-parser' => array(

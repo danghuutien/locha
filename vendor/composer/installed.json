@@ -2546,7 +2546,7 @@
             "dist": {
                 "type": "path",
                 "url": "./nova",
-                "reference": "4ba9fb7ea196e0039e61cbea574e570a6b15535c"
+                "reference": "e7c63514378fb4b0da2b78d1aaca17df6d873721"
             },
             "require": {
                 "brick/money": "^0.5.0",
@@ -2631,26 +2631,26 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.17.0",
-            "version_normalized": "1.17.0.0",
+            "version": "v1.18.0",
+            "version_normalized": "1.18.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "7d69da7b2bdb8cbe8da6663eb2ae0e00c884bf80"
+                "reference": "77feb38df1cf8700c19487957dfb12087cd696c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/7d69da7b2bdb8cbe8da6663eb2ae0e00c884bf80",
-                "reference": "7d69da7b2bdb8cbe8da6663eb2ae0e00c884bf80",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/77feb38df1cf8700c19487957dfb12087cd696c7",
+                "reference": "77feb38df1cf8700c19487957dfb12087cd696c7",
                 "shasum": ""
             },
             "require": {
-                "illuminate/console": "^8.0|^9.0",
-                "illuminate/contracts": "^8.0|^9.0",
-                "illuminate/support": "^8.0|^9.0",
+                "illuminate/console": "^8.0|^9.0|^10.0",
+                "illuminate/contracts": "^8.0|^9.0|^10.0",
+                "illuminate/support": "^8.0|^9.0|^10.0",
                 "php": "^7.3|^8.0"
             },
-            "time": "2022-12-22T14:46:08+00:00",
+            "time": "2023-01-10T16:14:21+00:00",
             "bin": [
                 "bin/sail"
             ],
@@ -2757,23 +2757,23 @@
         },
         {
             "name": "laravel/tinker",
-            "version": "v2.7.3",
-            "version_normalized": "2.7.3.0",
+            "version": "v2.8.0",
+            "version_normalized": "2.8.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/tinker.git",
-                "reference": "5062061b4924af3392225dd482ca7b4d85d8b8ef"
+                "reference": "74d0b287cc4ae65d15c368dd697aae71d62a73ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/tinker/zipball/5062061b4924af3392225dd482ca7b4d85d8b8ef",
-                "reference": "5062061b4924af3392225dd482ca7b4d85d8b8ef",
+                "url": "https://api.github.com/repos/laravel/tinker/zipball/74d0b287cc4ae65d15c368dd697aae71d62a73ad",
+                "reference": "74d0b287cc4ae65d15c368dd697aae71d62a73ad",
                 "shasum": ""
             },
             "require": {
-                "illuminate/console": "^6.0|^7.0|^8.0|^9.0",
-                "illuminate/contracts": "^6.0|^7.0|^8.0|^9.0",
-                "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
+                "illuminate/console": "^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/contracts": "^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
                 "php": "^7.2.5|^8.0",
                 "psy/psysh": "^0.10.4|^0.11.1",
                 "symfony/var-dumper": "^4.3.4|^5.0|^6.0"
@@ -2783,9 +2783,9 @@
                 "phpunit/phpunit": "^8.5.8|^9.3.3"
             },
             "suggest": {
-                "illuminate/database": "The Illuminate Database package (^6.0|^7.0|^8.0|^9.0)."
+                "illuminate/database": "The Illuminate Database package (^6.0|^7.0|^8.0|^9.0|^10.0)."
             },
-            "time": "2022-11-09T15:11:38+00:00",
+            "time": "2023-01-10T18:03:30+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2822,7 +2822,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/tinker/issues",
-                "source": "https://github.com/laravel/tinker/tree/v2.7.3"
+                "source": "https://github.com/laravel/tinker/tree/v2.8.0"
             },
             "install-path": "../laravel/tinker"
         },
@@ -3247,7 +3247,7 @@
             "dist": {
                 "type": "path",
                 "url": "./nova-components/Fileupload",
-                "reference": "ce1f92b7208eec30ee48d7cc68696f8c3430153b"
+                "reference": "4fad1496d842a7154076cd057bd2cda682ace93e"
             },
             "require": {
                 "php": ">=7.1.0"
@@ -3286,7 +3286,7 @@
             "dist": {
                 "type": "path",
                 "url": "./nova-components/Selecttree",
-                "reference": "fb10786b9916dcc4d2c5e42e6bce83eab22efc33"
+                "reference": "2587a31d97eac48118bfd919c193fa34c8c57959"
             },
             "require": {
                 "php": ">=7.1.0"
@@ -3325,7 +3325,7 @@
             "dist": {
                 "type": "path",
                 "url": "./nova-components/Mvcms",
-                "reference": "1ce5b647c3541b787c171e69d94e778d3285bff0"
+                "reference": "8d754337e382b6eb9fd7a5bfd9fc52804cb92558"
             },
             "require": {
                 "php": ">=7.1.0"
@@ -5931,17 +5931,17 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.7.1",
-            "version_normalized": "4.7.1.0",
+            "version": "4.7.3",
+            "version_normalized": "4.7.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "a1acf96007170234a8399586a6e2ab8feba109d1"
+                "reference": "433b2014e3979047db08a17a205f410ba3869cf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/a1acf96007170234a8399586a6e2ab8feba109d1",
-                "reference": "a1acf96007170234a8399586a6e2ab8feba109d1",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/433b2014e3979047db08a17a205f410ba3869cf2",
+                "reference": "433b2014e3979047db08a17a205f410ba3869cf2",
                 "shasum": ""
             },
             "require": {
@@ -5982,7 +5982,7 @@
                 "paragonie/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
                 "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
             },
-            "time": "2022-12-31T22:20:34+00:00",
+            "time": "2023-01-12T18:13:24+00:00",
             "type": "library",
             "extra": {
                 "captainhook": {
@@ -6010,7 +6010,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.7.1"
+                "source": "https://github.com/ramsey/uuid/tree/4.7.3"
             },
             "funding": [
                 {
